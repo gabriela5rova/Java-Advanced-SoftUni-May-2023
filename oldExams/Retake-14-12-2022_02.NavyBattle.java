@@ -9,7 +9,6 @@ public class NavyBattle {
         int n = Integer.parseInt(scanner.nextLine());
 
         String[][] battlefield = new String[n][n];
-        List<Integer> tunnelsCoordinates = new ArrayList<>();
         int rowSub = 0;
         int colSub = 0;
 
